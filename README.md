@@ -102,3 +102,6 @@ This section is meant to explain at a high level the procedure that the paper fo
 5. Compute the 4096 size feature vector (right before it is condensed into classification) for each image. Average these across a cluster.
 6. Assemble a dataset of clusters where you try to predict consumption (rather log consumption) from the aggregate feature vector per cluster. Use Ridge Regression.
 
+Pytorch Implementation for Malawi, Ethiopia and Nigeria:
+<https://github.com/jmather625/predicting-poverty-replication>
+
