@@ -52,11 +52,11 @@ To get the data, you need to do three things:
 # Scripts
 Run the Jupyter files in the following order:
 ```
-scripts/process_survey_data.ipynb
-scripts/download_images.ipynb
-scripts/train_cnn.ipynb
-scripts/feature_extract.ipynb
-scripts/predict_consumption.ipynb
+scripts/Mali_process_survey_data.ipynb
+scripts/Mali_download_images.ipynb
+scripts/Mali_train_cnn.ipynb
+scripts/Mali_feature_extract.ipynb
+scripts/Mali_predict_consumption.ipynb
 ```
 
 In the code itself you should see some comments and lines explaining ever step. Couple points:
