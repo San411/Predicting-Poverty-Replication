@@ -1,0 +1,8 @@
+numpy
+pandas
+requests
+scikit-learn
+geoio
+Pillow==6.2.1
+matplotlib
+tqdm
