@@ -1,6 +1,6 @@
 # predicting-poverty-replication
 
-![Earth from ISS](figures/figures/Earth.jpg)
+![Earth from ISS](figures/Earth.jpg)
 
 
 The purpose of this repository is to replicate the Jean et. al. (2016) paper (see `papers/jean_et_al.pdf` and `papers/aaai16.pdf`) using only Python3 and PyTorch. These more up-to-date tools and instructions should help anyone trying to recreate and build-off this work.
