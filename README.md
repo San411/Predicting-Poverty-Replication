@@ -17,6 +17,7 @@ Note 2: I chose to work with Mali as it had the most usable data in 2014-2015
 <p align="center">
   <img src="figures/mali_results.png" width="400" alt="Mali plot">
 </p>
+Actual Consumption vs Predicted Consumption
 
 # Setup
 I recommend creating a virtual environment for this project. I prefer using Anaconda.
