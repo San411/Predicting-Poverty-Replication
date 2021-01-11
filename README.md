@@ -15,7 +15,7 @@ Note 2: I chose to work with Mali as it had the most usable data in 2014-2015
 
 # Reproduction Result
 <p align="center">
-  <img src="figures/figures/mali_results.png" width="400" alt="Mali plot">
+  <img src="figures/mali_results.png" width="400" alt="Mali plot">
 </p>
 
 # Setup
@@ -23,7 +23,7 @@ I recommend creating a virtual environment for this project. I prefer using Anac
 
 First run:
 ```
-git clone https://github.com/jmather625/predicting-poverty-replication
+git clone https://github.com/San411/Predicting-Poverty-Replication.git
 conda create -n <ENV_NAME> python=3.7 pip gdal
 conda activate <ENV_NAME>
 conda install pytorch==1.3.0 torchvision==0.4.1 -c pytorch
@@ -77,13 +77,13 @@ Activation maps are a good way to visually depict what a CNN focuses on.
 
 Big thanks to https://github.com/utkuozbulak/pytorch-cnn-visualizations for making CNN visualizations easier. I borrowed one technique, feel free to try more. Here are two examples:
 <p align='center'>
-  <img src="figures/figures/img1.png" width="300" alt="Result stats">
-  <img src="figures/figures/activations1.png" width="300" alt="Result plots" style='margin-left: 5%'>
+  <img src="figures/img1.png" width="300" alt="Result stats">
+  <img src="figures/activations1.png" width="300" alt="Result plots" style='margin-left: 5%'>
 </p>
 
 <p align='center'>
-    <img src="figures/figures/img2.png" width="300" alt="Result plots">
-    <img src="figures/figures/activations2.png" width="300" alt="Result stats"  style='margin-left: 5%'>
+    <img src="figures/img2.png" width="300" alt="Result plots">
+    <img src="figures/activations2.png" width="300" alt="Result stats"  style='margin-left: 5%'>
 </p>
 
 Because the number of images far exceeds how many I can feasibly hand-check, it is difficult to make generalizations about what the model focuses on. That being said, roads tend to be a key area of focus, and the edges of bodies of water tend to be identified.
@@ -91,8 +91,8 @@ Because the number of images far exceeds how many I can feasibly hand-check, it 
 However, edge cases seem to present weird outcomes. The image below was downloaded via my script and appears to be faulty. The activations are dimmed, but still present near the border of the image.
 
 <p align='center'>
-    <img src="figures/figures/img3.png" width="300" alt="Result plots">
-    <img src="figures/figures/activations3.png" width="300" alt="Result stats"  style='margin-left: 5%'>
+    <img src="figures/img3.png" width="300" alt="Result plots">
+    <img src="figures/activations3.png" width="300" alt="Result stats"  style='margin-left: 5%'>
 </p>
 
 
